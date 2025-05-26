@@ -3,7 +3,7 @@ region = "ap-south-1"
 }
 
 resource "aws_instance" "one" {
-count = 4
+count = 5
 ami = "ami-06031e2c49c278c8f"
 instance_type = "t2.medium"
 key_name = "L.Key"
